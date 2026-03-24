@@ -7,9 +7,9 @@ function somarNumeros (){
         if(!isNaN(numero)) {
             soma += numero;
         }   else {
-            alert("Por favor, digite um número válido!");
+            alert("Por favor, digite um número válido! ");
         }
-        continuar = confirm("Deseja adicionar mais números?");
+        continuar = confirm("Deseja adicionar mais números? ");
     }
-    alert("A soma dos números é:" + soma);
+    alert("A soma dos números é:  " + soma);
 }
