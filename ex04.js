@@ -1,12 +1,13 @@
 function ex04() {
 
-     let numero = 0;
+   
+    let numeros = [];
 
-    console.log (prompt("Digite um numero inteiro:"));
-    if (numero = % 2 === 0) {
-        console.log ("Par")
-    }else{
-        console.log ("Impar")
-    }
+    for (let i = 0; i < 4; i++) {
+
+        numeros.push(Number(prompt("Digite um Número:")));
 
     }
+    numeros.sort((a,b) => b - a);
+    alert ("Ordem decrescente: " + numeros);
+}
